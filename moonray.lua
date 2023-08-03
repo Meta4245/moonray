@@ -1198,7 +1198,7 @@ ffi.cdef [[
 ]]
 local r = ffi.load("raylib")
 local newc =
-    function(a, b, c, d) return ffi.new("struct Color", {a, b, c, d}) end
+    function(r, g, b, a) return ffi.new("struct Color", {r, g, b, a}) end
 
 EPSILON = 0.000001
 PI = 3.14159265358979323846
