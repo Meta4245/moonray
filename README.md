@@ -1,5 +1,6 @@
 # moonray
 (sorry for the messy directory structure) <br/>
+(not the moonray dreamworks thing) <br/>
 LuaJIT bindings for raylib
 
 ## example
