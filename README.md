@@ -17,3 +17,6 @@ end
 
 CloseWindow()
 ```
+
+## license
+Apache-2.0, uses code from raylib licensed under zlib
