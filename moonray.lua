@@ -1221,7 +1221,8 @@ ffi.cdef [[
     Quaternion QuaternionTransform(Quaternion q, Matrix mat);
     int QuaternionEquals(Quaternion p, Quaternion q);
 ]]
-local r = ffi.load("raylib")
+internal = ffi.load("raylib")
+local r = internal
 local newc =
     function(r, g, b, a) return ffi.new("struct Color", {r, g, b, a}) end
 
