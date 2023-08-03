@@ -1,4 +1,4 @@
-raymath.h
-raylib.h
-rlgl.h
-raylib.dll
+*.h
+*.dll
+*.so
+test.lua
